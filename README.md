@@ -1,2 +1,2 @@
-# Estudos em Python
+# Estudos
  Estudo 
