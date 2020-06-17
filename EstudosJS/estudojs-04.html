@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual seu nome? ')
+        var numero = Number(window.prompt(`Digite um número real: `))
+        document.write(`Olá <strong/>${nome}</strong>, seu nome tem ${nome.length} letras.<br/>`)
+        document.write(`Seu nome em maiusculo é ${nome.toUpperCase()}<br/>`)
+        document.write(`Seu nome em minusculo é ${nome.toLowerCase()}<br/>`)
+        document.write(`Seu numero real com duas casa fica ${numero.toFixed(2)}<br/>`)
+        document.write(`Trocando o ponto pela virgula ${numero.toFixed(2).replace('.', ',')}`)
+        // .toLocaleString(`pt-BR`, {style: `currency` currency: `BRL`}) - comando para setar valor em formato monetário.
+    </script>
+</body>
+</html>

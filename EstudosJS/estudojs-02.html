@@ -6,7 +6,7 @@
     <title>"Hello World"</title>
     <style>
         body{
-            background-color: white;
+            background-color: white; /* comentando em css3 */
             color: black;
             font: normal 19pt arial;
         }
@@ -16,12 +16,11 @@
     </style>
 </head>
 <body>
-    <h1>Hello World</h1> 
-    <p>meu primeiro programa</p>
+    <h1>2. Hello World</h1> <!--comentando em html-->
+    <p>Segundo programa</p>
     <script>
-        window.alert('minha primeira mensagem') //comando para abrir janela de alerta 
-        window.confirm('Está gostando de aprender') // comando para abrir janela de confirmação 
-        window.prompt('Qual seu nome?') // janela para digitação do usuário 
+        var nome = window.prompt('Qual seu nome?') // criando váriável para guardar o valor digitado no prompt 
+        window.alert('E um grande prazer em te conhecer, ' + nome)
     </script>
 </body>
 </html>
